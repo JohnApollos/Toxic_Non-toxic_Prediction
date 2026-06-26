@@ -2,7 +2,7 @@
 
 This repository contains a robust, optimized machine learning pipeline designed to classify chemical/biological samples as **Toxic** or **NonToxic** based on molecular descriptors.
 
-## 🔬 The Data Science Challenge: The $p \\gg n$ Curse
+## The Data Science Challenge: The $p \\gg n$ Curse
 
 The dataset (Toxicity/CRY1 from the UCI Machine Learning Repository) presents an extreme dimensionality problem:
 * **Features ($p$):** 1,203 molecular descriptors
@@ -16,7 +16,7 @@ The dataset (Toxicity/CRY1 from the UCI Machine Learning Repository) presents an
 
 ---
 
-## 📊 Performance Comparison
+## Performance Comparison
 
 | Pipeline Architecture | CV Macro F1 Score | In-Sample Macro F1 | Generalization Status |
 | :--- | :---: | :---: | :---: |
@@ -26,7 +26,7 @@ The dataset (Toxicity/CRY1 from the UCI Machine Learning Repository) presents an
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── data/
@@ -46,7 +46,7 @@ The dataset (Toxicity/CRY1 from the UCI Machine Learning Repository) presents an
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup Virtual Environment
 Create and activate a Python virtual environment:
@@ -68,7 +68,7 @@ python src/pipeline.py
 
 ---
 
-## 🧪 Experiment Scripts
+## Experiment Scripts
 You can run the experimental steps of the Data Science workflow individually:
 * **Feature Diagnostics:** `python src/feature_analysis.py`
 * **Baseline Benchmarking:** `python src/eda_and_experiment.py`
